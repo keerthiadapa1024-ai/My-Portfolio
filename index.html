@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adapa Keerthi — Portfolio</title>
+  <style>
+    :root{
+      --bg:#f5f7fa;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#4f46e5;
+      --maxw:980px;
+      --radius:12px;
+      --shadow: 0 8px 30px rgba(15,23,42,0.06);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:linear-gradient(180deg,var(--bg) 0%, #eef2ff 100%);
+      color:#0f172a;
+      line-height:1.5;
+    }
+    .wrap{max-width:var(--maxw);margin:32px auto;padding:20px}
+    header {
+      background:linear-gradient(180deg,#fff,#f8fbff);
+      padding:28px;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+    .top {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:16px;
+    }
+    h1{margin:0;font-size:1.8rem}
+    .subtitle{color:var(--muted);margin-top:6px;font-size:0.95rem}
+    nav{display:flex;gap:12px;flex-wrap:wrap}
+    nav a{color:var(--accent);text-decoration:none;font-weight:600}
+    .lead{color:var(--muted);max-width:70%}
+    @media(max-width:720px){.lead{max-width:100%}}
+    section.card{
+      background:var(--card);
+      padding:18px;
+      border-radius:12px;
+      box-shadow:0 6px 20px rgba(15,23,42,0.04);
+      border:1px solid #edf2ff;
+      margin-bottom:20px;
+    }
+    .card-item{background:#ffffff;border:1px solid #eef2ff;padding:14px;border-radius:10px}
+    .muted{color:var(--muted)}
+    .small{font-size:0.95rem}
+    .cert{
+      padding:12px;
+      border-radius:8px;
+      border:1px dashed #dce3ff;
+      background:#ffffff;
+      margin-top:10px;
+    }
+    footer{text-align:center;color:var(--muted);margin-top:18px;padding:14px 0}
+    a{color:var(--accent)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="top">
+        <div>
+          <h1>Adapa Keerthi</h1>
+          <div class="subtitle">B.Tech (Biotechnology) • Aspiring researcher — Bioinformatics · ML · Wet-lab skills</div>
+        </div>
+
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ABOUT -->
+      <section id="about" class="card">
+        <h2>About Me</h2>
+        <p class="small muted">
+          I am an aspiring Biotechnology student with a strong passion for molecular biology, microbiology, sustainable innovation, and scientific communication. I enjoy exploring how biological systems function and applying that knowledge to solve real-world challenges. Along with hands-on wet-lab experience, I am building skills in bioinformatics and data analysis, allowing me to connect experimental observations with computational insights. I am enthusiastic about teamwork, presenting scientific ideas clearly, and contributing to projects that promote sustainability, community development, and meaningful biological innovation.
+
+        </p>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="card">
+  <h2>Projects</h2>
+
+  <div class="card-item">
+    <h3>Community Development Project</h3>
+    <p class="muted small" style="margin-top:8px">
+      A social-impact project focused on improving community awareness, sustainability practices, 
+      and problem-solving skills through practical activities and collaborative learning.
+    </p>
+  </div>
+
+  <div class="card-item" style="margin-top:12px">
+    <h3>Working Model on Building a Smarter Sustainable City</h3>
+    <p class="muted small" style="margin-top:8px">
+      Designed a functional model representing a sustainable and technologically enhanced city 
+      with improved energy usage, waste management, and eco-friendly systems.
+    </p>
+  </div>
+
+  <div class="card-item" style="margin-top:12px">
+    <h3>Smart Energy Meter</h3>
+    <p class="muted small" style="margin-top:8px">
+      Developed a prototype smart energy meter capable of monitoring power consumption efficiently, 
+      promoting awareness of sustainable energy usage in households and communities.
+    </p>
+  </div>
+
+<section id="skills" class="card">
+  <h2>Skills</h2>
+
+  <p class="muted small">
+    • Cell and Molecular Biology<br>
+    • BioPython<br>
+    • Data Analysis<br>
+    • Bioinformatics<br>
+    • Wet Lab Techniques<br>
+    • Scientific Communication<br>
+    • Teamwork & Problem Solving<br>
+  </p>
+</section>
+
+
+      <!-- CERTIFICATIONS -->
+      <section id="certifications" class="card">
+        <h2>Certifications</h2>
+
+        <div class="cert">
+          <strong>Innovation and Sustainability</strong>
+          <p class="muted small">Hands-on certification covering sustainability principles, eco-friendly solutions, and innovation for community improvement.</p>
+        </div>
+
+        <div class="cert">
+          <strong>Public Speaking</strong>
+          <p class="muted small">Trained in presentation skills, confidence building, scientific communication, and effective audience engagement.</p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> +91 90140 40274</p>
+
+        <p><strong>Email:</strong> 
+          <a href="mailto:keerthiadapa1024@gmail.com">keerthiadapa1024@gmail.com</a>
+        </p>
+
+        <p><strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/keerthi-adapa-5b892a293" target="_blank">
+            linkedin.com/in/keerthi-adapa-5b892a293
+          </a>
+        </p>
+
+        <p><strong>GitHub:</strong>
+          <a href="https://github.com/keerthiadapa1024-ai" target="_blank">
+            github.com/keerthiadapa1024-ai
+          </a>
+        </p>
+      </section>
+
+    </main>
+
+    <footer>
+      © <span id="year"></span> Adapa Keerthi — Portfolio
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
